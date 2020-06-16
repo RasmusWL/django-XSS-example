@@ -20,4 +20,5 @@ from . import views
 
 urlpatterns = [
     path('hello/<name>', views.hello),
+    path('hello404/<name>', views.hello404),
 ]
